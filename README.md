@@ -34,7 +34,7 @@ Install the development version from GitHub:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("YOUR_USERNAME/stringSAS")
+remotes::install_github("Statsergeant/stringSAS")
 ```
 
 After the package is published on CRAN:

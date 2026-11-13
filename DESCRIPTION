@@ -1,6 +1,6 @@
 Package: stringSAS
 Type: Package
-Title: What the Package Does (Title Case)
+Title: SAS-Inspired Character Manipulation Functions
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -9,9 +9,12 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Provides vectorized character manipulation functions
-    inspired by SAS syntax. Designed for R users familiar with
-    SAS programming, with support for tidyverse workflows.
+Description: Provides SAS-inspired character manipulation functions
+    for R users who regularly work with both SAS and R. Includes
+    functions for character compression, word extraction, substring
+    operations, concatenation, searching, and replacement. Supports
+    vectorized operations and integration with data manipulation
+    workflows.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

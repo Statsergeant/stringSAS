@@ -79,9 +79,11 @@ sas_tranwrd("A-B-C", "-", "_")
 
 `stringSAS` functions are vectorized and can be used directly inside `mutate()`.
 
-```{r tidyverse-example}
+```{r, echo = F}
 library(dplyr)
+```
 
+```{r tidyverse-example}
 dm <- tibble(
   usubjid = c(
     "ABC-001-0001",

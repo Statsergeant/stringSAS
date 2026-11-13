@@ -99,10 +99,6 @@ sas_tranwrd("A-B-C", "-", "_")
 `stringSAS` functions are vectorized and can be used directly inside
 `mutate()`.
 
-``` r
-library(dplyr)
-```
-
     ## 
     ## Attaching package: 'dplyr'
 

@@ -14,6 +14,20 @@ workflows.
 The package focuses on SAS-inspired syntax, vectorized operations, and
 straightforward integration with `dplyr`.
 
+## Motivation
+
+In pharmaceutical statistical programming, SAS and R are frequently used
+side by side. Switching between these languages can be inconvenient
+because similar character manipulation tasks require different function
+names and argument conventions.
+
+`stringSAS` was developed to reduce this cognitive overhead by providing
+familiar SAS-inspired character functions in R.
+
+The goal is not to replace existing R string manipulation packages, but
+to provide a convenient interface for programmers who regularly work
+with both languages.
+
 ## Installation
 
 Install the development version from GitHub:
@@ -87,7 +101,20 @@ sas_tranwrd("A-B-C", "-", "_")
 
 ``` r
 library(dplyr)
+```
 
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
 dm <- tibble(
   usubjid = c(
     "ABC-001-0001",

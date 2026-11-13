@@ -6,11 +6,14 @@
 
 ## Test environments
 
-- Windows, local R installation, R CMD check --as-cran
-- Windows, R-devel (2026-11-12 r90881 ucrt), win-builder
+- Windows, local R installation, `R CMD check --as-cran`
+- Windows, R-devel, win-builder
+- Linux, R-devel, R-hub
 
 ## Additional comments
 
-This is the first CRAN submission of stringSAS, version 0.1.0.
+This is the first CRAN submission of `stringSAS`, version 0.1.0.
 
-The package provides SAS-inspired character manipulation functions for statistical programmers who regularly use both SAS and R.
+The package provides SAS-inspired character manipulation functions for R, particularly for statistical programmers who regularly work with SAS and R.
+
+The package is designed to reduce the cognitive overhead of switching between the two programming languages.

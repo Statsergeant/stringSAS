@@ -79,7 +79,7 @@ sas_tranwrd("A-B-C", "-", "_")
 
 `stringSAS` functions are vectorized and can be used directly inside `mutate()`.
 
-```{r, echo = F}
+```{r, message=FALSE, warning=FALSE}
 library(dplyr)
 ```
 

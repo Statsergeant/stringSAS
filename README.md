@@ -99,16 +99,9 @@ sas_tranwrd("A-B-C", "-", "_")
 `stringSAS` functions are vectorized and can be used directly inside
 `mutate()`.
 
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
+``` r
+library(dplyr)
+```
 
 ``` r
 dm <- tibble(
